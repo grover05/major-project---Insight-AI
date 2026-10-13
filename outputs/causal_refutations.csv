@@ -1,0 +1,5 @@
+test,original_effect,new_effect,p_value
+Add a random fake confounder (effect should NOT change),-1.7299798651806122,-1.7299690875624048,0.3614006380161315
+Shuffle the treatment (effect should drop to ~0),-1.7299798651806122,-0.0001143506681301698,0.4968556211622468
+Use random 80% subsets (effect should stay similar),-1.7299798651806122,-1.729482346823548,0.4810409250627884
+Hidden confounder (moderate),-1.7299798651806122,-1.5495960489723988,

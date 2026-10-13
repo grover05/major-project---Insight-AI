@@ -1,0 +1,7 @@
+outcome,method,effect
+review_score,Naive difference (no adjustment),-1.7277863340342652
+review_score,DoWhy: linear regression adjustment,-1.7299798651806122
+review_score,DoWhy: propensity-score weighting,-1.8212602324439082
+low_review,Naive difference (no adjustment),0.4480020241369705
+low_review,DoWhy: linear regression adjustment,0.4492556133206854
+low_review,DoWhy: propensity-score weighting,0.4740399522404969
